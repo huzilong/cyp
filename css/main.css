@@ -1,0 +1,53 @@
+* {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 0;
+  border: 1px solid black;
+}
+/*.header {
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+
+.nav {
+  /*display: inline-block;*/
+  float: left;
+}
+
+.logo {
+  /*display: inline-block;*/
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social {
+  /*display: inline-block;*/
+  float: right;
+}
+
+.center {
+  /* Firefox */
+display:-moz-box;
+-moz-box-pack:center;
+-moz-box-align:center;
+
+/* Safari, Chrome, and Opera */
+display:-webkit-box;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+
+/* W3C */
+display:box;
+box-pack:center;
+box-align:center;
+}
+
+.right {
+  float: right;
+}
+
+.board {
+  text-align: center;
+}
